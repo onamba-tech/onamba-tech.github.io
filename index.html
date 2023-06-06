@@ -1,5 +1,4 @@
 <!-- Hello there 👋, Interested in working with us? Fill out the contact form -->
-<!-- This page was built with a theme from Start Bootstrap - Resume v7.0.6 (https://startbootstrap.com/theme/resume) -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,15 +7,12 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Resume - Start Bootstrap Theme</title>
+    <meta name="description" content="Landing Page for O'NAMBA Technology" />
+    <meta name="author" content="O'NAMBA Technology" />
+    <title>O'NAMBA Tech</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script
-      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
-      crossorigin="anonymous"
-    ></script>
+
+    
     <!-- Google fonts-->
     <link
       href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
@@ -30,9 +26,23 @@
     />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/custom.css" rel="stylesheet" />
+    <link href="css/spinner.css" rel="stylesheet" />
+    <link href="css/text-animations.css" rel="stylesheet" />
+    <link href="css/button.css" rel="stylesheet" />
+    <link href="css/constants.css" rel="stylesheet" />
+
+    
   </head>
   <body id="page-top">
+    <!-- Pre-Loading Screen -->
+    <div id="loader-wrapper">
+      <div class="spinner" id="loader">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+    </div>
+
     <!-- Navigation-->
     <nav
       class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
@@ -44,7 +54,7 @@
           ><img
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
             src="assets/img/ONAMBA-LOGO.jpeg"
-            alt="..."
+            alt="ONAMBA LOGO"
         /></span>
       </a>
       <button
@@ -63,6 +73,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact-form"
               >Contact Form</a
@@ -114,6 +127,62 @@
         </div>
       </section>
       <hr class="m-0" />
+      <!-- Services -->
+      <!-- <section class="resume-section" id="services">
+        <div class="resume-section-content">
+          <h1 class="ml11">
+            <span class="text-wrapper">
+              <span class="line line1"></span>
+              <span class="letters">What Do We Do?</span>
+            </span>
+          </h1>
+
+          <div class="subheading mb-5">Here's what we can help you with</div>
+
+          <p class="lead mb-5"> These are our services:</p>
+
+          <div class="center">
+            <button class="btn">
+              <svg
+                width="180px"
+                height="60px"
+                viewBox="0 0 180 60"
+                class="border"
+              >
+                <polyline
+                  points="179,1 179,59 1,59 1,1 179,1"
+                  class="bg-line"
+                />
+                <polyline
+                  points="179,1 179,59 1,59 1,1 179,1"
+                  class="hl-line"
+                />
+              </svg>
+              <span>HOVER ME</span>
+            </button>
+          </div>
+
+          <br />
+          Our commitment to delivering high-quality products and exceptional
+          user experiences sets us apart.
+
+          <div class="social-icons">
+            <a class="social-icon" href="#!"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
+            <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
+
+            <a class="social-icon" href="#!"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="social-icon" href="https://wa.link/9935kf"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" /> -->
       <!-- Contact Form -->
       <section class="resume-section" id="contact-form">
         <div class="resume-section-content">
@@ -141,9 +210,21 @@
         >
       </center>
     </div>
+
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <!-- Anime.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+
+    <script src="js/text-animations.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
+<!-- This page was built with a theme from Start Bootstrap - Resume v7.0.6 (https://startbootstrap.com/theme/resume) -->

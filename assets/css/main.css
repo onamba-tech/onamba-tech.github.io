@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    font-family: "Roboto", serif;
+}
+
+.is-em-font {
+    font-family: "Inter", serif;
+}
+
+.is-mono-text {
+    font-family: 'Space Grotesk', serif;
+}
+
+.is-heading-text{
+    font-family: 'Space Grotesk', serif;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+img#section-1{
+    width: 50%;
+    height: 100%;
+}
+
+#service-section > .column > .fa {
+    font-size: 5rem;
+}
+
+.team-member-img{
+    border-radius: 204890px;
+    max-height: 150px;
+    max-width: 150px;
+}

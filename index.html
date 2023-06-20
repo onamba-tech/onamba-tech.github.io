@@ -1,230 +1,440 @@
-<!-- Hello there 👋, Interested in working with us? Fill out the contact form -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="Landing Page for O'NAMBA Technology" />
-    <meta name="author" content="O'NAMBA Technology" />
-    <title>O'NAMBA Tech</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-
-    
-    <!-- Google fonts-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O'Namba Consult</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
       rel="stylesheet"
-      type="text/css"
+      href="https://meyerweb.com/eric/tools/css/reset/reset.css"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
       rel="stylesheet"
-      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"
     />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/spinner.css" rel="stylesheet" />
-    <link href="css/text-animations.css" rel="stylesheet" />
-    <link href="css/button.css" rel="stylesheet" />
-    <link href="css/constants.css" rel="stylesheet" />
 
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Rajdhani:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Source+Code+Pro:wght@400;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/animated-background.css" />
+    <link rel="stylesheet" href="./assets/css/text-animations.css" />
+    <link rel="stylesheet" href="./assets/css/loader-overlay.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   </head>
-  <body id="page-top">
-    <!-- Pre-Loading Screen -->
+  <body>
     <div id="loader-wrapper">
-      <div class="spinner" id="loader">
-        <div class="bounce1"></div>
-        <div class="bounce2"></div>
-        <div class="bounce3"></div>
+      <div
+        class="ml13 has-text-centered is-vcentered is-mono-text"
+        id="loader-text"
+      >
+        O'NAMBA CONSULT
       </div>
     </div>
 
-    <!-- Navigation-->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
-      id="sideNav"
-    >
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">O'NAMBA Technology</span>
-        <span class="d-none d-lg-block"
-          ><img
-            class="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src="assets/img/ONAMBA-LOGO.jpeg"
-            alt="ONAMBA LOGO"
-        /></span>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarResponsive"
-        aria-controls="navbarResponsive"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact-form"
-              >Contact Form</a
-            >
-          </li>
-        </ul>
+    <nav class="box is-marginless has-shadow">
+      <div class="level">
+        <p class="level-item has-text-centered">
+          <a class="link is-info" href="#services">Services</a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a class="link is-info" href="#why-us">Why Us</a>
+        </p>
+        <p class="level-item has-text-centered is-heading-text">O'NAMBA</p>
+        <p class="level-item has-text-centered">
+          <a class="link is-info is-hidden-touch" href="#meet-the-team"
+            >Meet the Team</a
+          >
+        </p>
+        <p class="level-item has-text-centered">
+          <a class="link is-info" href="#contact-us">Contact Us</a>
+        </p>
       </div>
     </nav>
-    <!-- Page Content-->
-    <div class="container-fluid p-0">
-      <!-- About-->
-      <section class="resume-section" id="about">
-        <div class="resume-section-content">
-          <h1 class="mb-0">
-            O'NAMBA
-            <span class="text-primary">Technology</span>
-          </h1>
-          <div class="subheading mb-5">
-            Suite C2, Beautiful Plaza · News Engineering, Dawaki, Abuja · NG
-            901101 · (+234) 904 347 6822 ·
-            <a href="mailto:onambatech@gmail.com">onambatech@gmail.com</a>
-          </div>
-          <p class="lead mb-5">
-            A dynamic and innovative software agency based in the vibrant heart
-            of Africa, Nigeria.
-            <br />
-            We provide unique software solutions that cater to the evolving
-            needs of businesses and individuals. With a team of young and
-            talented professionals, we bring fresh perspectives, creativity, and
-            technical expertise to every project we undertake.
-            <br />
-            Our commitment to delivering high-quality products and exceptional
-            user experiences sets us apart.
-          </p>
-          <div class="social-icons">
-            <a class="social-icon" href="#!"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
-            <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-
-            <a class="social-icon" href="#!"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a class="social-icon" href="https://wa.link/9935kf"
-              ><i class="fab fa-whatsapp"></i
-            ></a>
-          </div>
-        </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Services -->
-      <!-- <section class="resume-section" id="services">
-        <div class="resume-section-content">
-          <h1 class="ml11">
-            <span class="text-wrapper">
-              <span class="line line1"></span>
-              <span class="letters">What Do We Do?</span>
-            </span>
-          </h1>
-
-          <div class="subheading mb-5">Here's what we can help you with</div>
-
-          <p class="lead mb-5"> These are our services:</p>
-
-          <div class="center">
-            <button class="btn">
-              <svg
-                width="180px"
-                height="60px"
-                viewBox="0 0 180 60"
-                class="border"
-              >
-                <polyline
-                  points="179,1 179,59 1,59 1,1 179,1"
-                  class="bg-line"
-                />
-                <polyline
-                  points="179,1 179,59 1,59 1,1 179,1"
-                  class="hl-line"
-                />
-              </svg>
-              <span>HOVER ME</span>
-            </button>
-          </div>
-
-          <br />
-          Our commitment to delivering high-quality products and exceptional
-          user experiences sets us apart.
-
-          <div class="social-icons">
-            <a class="social-icon" href="#!"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
-            <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-
-            <a class="social-icon" href="#!"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a class="social-icon" href="https://wa.link/9935kf"
-              ><i class="fab fa-whatsapp"></i
-            ></a>
-          </div>
-        </div>
-      </section>
-      <hr class="m-0" /> -->
-      <!-- Contact Form -->
-      <section class="resume-section" id="contact-form">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Contact Form</h2>
-          <center>
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSdoUWIS8tP1U87qN79aHu7rvjkeRDmxELK59DeBd3BbpYE_9g/viewform?embedded=true"
-              width="740"
-              height="900"
-              frameborder="0"
-              marginheight="0"
-              marginwidth="0"
-              >Loading…</iframe
-            >
-          </center>
-        </div>
-      </section>
-      <center>
-        <p><i class="fa fa-code"></i> with <i class="fa fa-heart"></i></p>
-      </center>
-      <hr class="m-0" />
-      <center>
-        <small
-          >Copyright &copy; 2023 Onamba Consult. All rights reserved.</small
+    <div class="container is-widescreen">
+      <section class="section hero animated-gradient-background">
+        <div
+          class="columns is-vcentered is-centered is-multiline hero-body content"
         >
-      </center>
+          <div class="is-em-font">
+            <div class="">
+              <h2 class="title is-5 has-text-centered has-text-white">
+                <span class="ml3">We Think </span>
+                <span class="ml3 has-text-primary">
+                  <em>Partners</em>
+                </span>
+              </h2>
+            </div>
+            <div class="">
+              <h2 class="title is-6 has-text-white has-text-centered">
+                <span class="ml3">Not Clients</span>
+              </h2>
+            </div>
+          </div>
+          <div class="column is-12-touch is-7-desktop is-8-widescreen">
+            <div class="box">
+              <h2 class="title is-heading-text is-size-3" id="who-are-we">
+                Who Are We?
+              </h2>
+              <div>
+                <p class="is-size-5 has-text-justified">
+                  A dynamic and innovative software agency based <br />
+                  in the vibrant heart of Africa,
+                  <span class="has-text-primary">Nigeria</span>.
+                </p>
+                <p class="has-text-justified">
+                  We provide unique software solutions that cater to the
+                  evolving needs of businesses and individuals. With a team of
+                  young and talented professionals, we bring fresh perspectives,
+                  creativity, and technical expertise to every project we
+                  undertake. Our commitment to delivering high-quality products
+                  and exceptional user experiences sets us apart.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-hidden-touch is-5-desktop is-4-widescreen">
+            <div class="media">
+              <lottie-player
+                src="https://assets9.lottiefiles.com/packages/lf20_wnceyokk.json"
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+          </div>
+        </div>
+        <div class="hero-footer has-text-centered">
+          <a class="button is-large is-primary is-em-font" href="#contact-us">
+            &RightArrowBar; Contact Us
+          </a>
+        </div>
+      </section>
+
+      <section class="section hero block">
+        <div class="has-text-centered">
+          <h2 class="title is-3 is-em-font" id="services">Services</h2>
+        </div>
+        <br />
+        <div class="columns is-multiline">
+          <div class="column content">
+            <blockquote>
+              Any sufficiently advanced technology is indistinguishable from
+              magic.
+            </blockquote>
+            <cite class="is-size-7 is-pulled-right"
+              ><em>Arthur C. Clarke</em></cite
+            >
+          </div>
+          <div class="column content">
+            <blockquote>
+              What new technology does is create new opportunities to do a job
+              that customers want done.
+            </blockquote>
+            <cite class="is-size-7 is-pulled-right"><em>Tim O'Reilly</em></cite>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <div class="box content is-size-5">
+              We add extra value to your business, which results in higher
+              customer satisfaction and staff effectiveness
+              <ul>
+                <li>
+                  Have a full technical specification for the next mobile app
+                  that will change the world?
+                </li>
+                <li>
+                  Don't know what a technical specification is, but want to
+                  engage with customers digitally?
+                </li>
+                <li>
+                  Working on your data critical application, and need someone to
+                  handle the gritty details of security and scalability?
+                </li>
+                <li>
+                  Want to predict your revenue, analyze user behaviour, or just
+                  automate a bit of customer support with a chatbot?
+                </li>
+              </ul>
+              <hr />
+              <p class="title is-3 is-em-font has-text-centered">
+                Let's develop your ideas
+              </p>
+              <br />
+              <div
+                class="columns is-multiline is-centered has-text-centered"
+                id="service-section"
+              >
+                <div class="column is-12-touch is-3">
+                  <i class="fa fa-cloud has-text-info-dark"></i>
+                  <br />
+                  <span class="is-mono-text">Web Development</span>
+                </div>
+                <div class="column is-12-touch is-3">
+                  <i class="fa fa-cogs has-text-info"></i>
+                  <br />
+                  <span class="is-mono-text">Automation</span>
+                </div>
+                <div class="column is-12-touch is-3">
+                  <i class="fa fa-paper-plane-o has-text-info-dark"></i>
+                  <br />
+                  <span class="is-mono-text">Digital Marketing</span>
+                </div>
+                <div class="column is-12-touch is-3">
+                  <i class="fa fa-line-chart has-text-info"></i>
+                  <br />
+                  <span class="is-mono-text">Data Analytics and Tracking</span>
+                </div>
+                <div class="column is-12-touch is-3">
+                  <i class="fa fa-object-group has-text-info-dark"></i>
+                  <br />
+                  <span class="is-mono-text">Graphic & UI/UX Design</span>
+                </div>
+                <div class="column is-12-touch is-3">
+                  <i class="fa fa-group has-text-info-dark"></i>
+                  <br />
+                  <span class="is-mono-text">IT Support</span>
+                </div>
+                <div class="column is-12-touch is-3">
+                  <i class="fa fa-mortar-board has-text-info"></i>
+                  <br />
+                  <span class="is-mono-text">Coding Bootcamp and Training</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section hero animated-gradient-background-invert block">
+        <div class="columns is-vcentered is-centered hero-body is-multiline">
+          <div class="column is-11">
+            <div class="box">
+              <h2 class="title is-heading-text has-text-centered" id="why-us">
+                Why Us?
+              </h2>
+              <div class="tile is-ancestor">
+                <div class="tile is-vertical is-8">
+                  <div class="tile">
+                    <div class="tile is-parent is-vertical">
+                      <article class="tile is-child notification is-primary">
+                        <p class="title">Tailored Solutions</p>
+                        <p class="content">
+                          We understand that every business is unique, which is
+                          why we offer customized software solutions that cater
+                          to your specific needs.
+                        </p>
+                      </article>
+                      <article class="tile is-child notification is-warning">
+                        <p class="title">Timely Delivery</p>
+
+                        <p class="content">
+                          We value your time and understand the significance of
+                          meeting deadlines. Our agile project management
+                          approach allows us to deliver projects on time without
+                          compromising on quality. We strive to exceed your
+                          expectations by providing prompt and reliable
+                          services.
+                        </p>
+                      </article>
+                    </div>
+                    <div class="tile is-parent">
+                      <article class="tile is-child notification is-info">
+                        <p class="title">Cost-Effective Solutions</p>
+                        <p class="content">
+                          We believe that quality software solutions should be
+                          affordable and accessible. Our agency/business center
+                          offers cost-effective options without compromising on
+                          quality. We work with you to optimize resources and
+                          deliver efficient solutions that fit your budget.
+                        </p>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="tile is-parent">
+                    <article class="tile is-child notification is-danger">
+                      <p class="title">Cutting-Edge Technology</p>
+                      <div class="content">
+                        <!-- Content -->
+                        We stay ahead of the curve by keeping up with the latest
+                        advancements in technology. Our agency/business center
+                        utilizes state-of-the-art tools, frameworks, and
+                        methodologies to ensure that our software solutions are
+                        modern, efficient, and future-proof.
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+                <div class="tile is-parent">
+                  <article class="tile is-child notification is-success">
+                    <div class="content">
+                      <p class="title">Client-Centric Approach</p>
+                      <p class="subtitle">
+                        Your satisfaction is our top priority.
+                      </p>
+                      <div class="content">
+                        We maintain open lines of communication throughout the
+                        entire development process, ensuring that we understand
+                        your requirements and address any concerns promptly. Our
+                        team is dedicated to providing excellent customer
+                        service and building long-lasting relationships with our
+                        clients.
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-8 is-hidden-touch">
+            <div class="box">
+              <h2
+                class="title is-heading-text has-text-centered"
+                id="meet-the-team"
+              >
+                Meet the Team
+              </h2>
+              <div class="columns is-multiline is-centered">
+                <div class="column is-4-touch has-text-centered">
+                  <div>
+                    <img
+                      src="./assets/img/avatars/tobe-male-avatar.svg"
+                      alt=""
+                      class="team-member-img"
+                    />
+                  </div>
+                  <div class="content has-text-centered">
+                    <p class="title is-5">
+                      <a href="https://github.com/Tobetek">Tobe</a> &CenterDot;
+                    </p>
+                  </div>
+                </div>
+                <div class="column is-4-touch">
+                  <div>
+                    <img
+                      src="./assets/img/avatars/memeee-female-avatar.svg"
+                      alt=""
+                      class="team-member-img"
+                    />
+                  </div>
+                  <div class="content has-text-centered">
+                    <p class="title is-5">
+                      <a href="https://www.linkedin.com/in/ysabel-katchy/"
+                        >MeMeee</a
+                      >
+                      &CenterDot;
+                    </p>
+                  </div>
+                </div>
+                <div class="column is-4-touch">
+                  <div>
+                    <img
+                      src="./assets/img/avatars/unknown-male-avatar.svg"
+                      alt=""
+                      class="team-member-img"
+                    />
+                  </div>
+                  <div class="content has-text-centered">
+                    <p class="title is-5">
+                      <em>You?</em>
+                      <br />
+                      <a href="" class="is-size-7">Apply for open roles</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section hero">
+        <div class="columns">
+          <div class="column is-10">
+            <div class="box">
+              <h2 class="title is-4 is-em-font" id="contact-us">Contact Us</h2>
+              <div class="content has-text-centered">
+                <!-- Contact Form -->
+                <iframe
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSdoUWIS8tP1U87qN79aHu7rvjkeRDmxELK59DeBd3BbpYE_9g/viewform?embedded=true"
+                  width="740"
+                  height="900"
+                  frameborder="0"
+                  marginheight="0"
+                  marginwidth="0"
+                  >Loading…</iframe
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
+    <footer class="footer has-text-light has-background-black">
+      <div class="columns is-vcentered">
+        <div class="column is-8-desktop has-text-centered">
+          <div class="block is-size-4 is-mono-text">
+            <div class="content">
+              <i class="fa fa-map-marker"></i>
+              Suite C2, Beautiful Plaza · News Engineering, Dawaki, Abuja · NG
+              901101
+            </div>
+          </div>
+          <div class="level is-size-5 is-mono-text">
+            <div class="level-item">
+              <div class="content">
+                <i class="fa fa-phone"></i>
+                +234 90 434 768 22
+              </div>
+            </div>
+            <div class="level-item">
+              <div class="content">
+                <i class="fa fa-envelope"></i>
+                onambatech@gmail.com
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="level is-size-6 is-mono-text">
+            <div class="level-item">
+              <div class="content">
+                <a href="#services" class="has-text-white">Services</a>
+              </div>
+            </div>
+            <div class="level-item">
+              <div class="content">
+                Learn How To Code <em>(Coming Soon)</em>
+              </div>
+            </div>
+            <div class="level-item">
+              <div class="content">
+                <a href="why-us" class="has-text-white">About Us</a>
+              </div>
+            </div>
+            <div class="level-item">
+              <div class="content">Careers</div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <img src="./assets/img/onamba.svg" alt="O'NAMBA Logo" />
+        </div>
+      </div>
+    </footer>
 
-    <!-- Font Awesome icons (free version)-->
-    <script
-      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
-      crossorigin="anonymous"
-    ></script>
-    
-    <!-- Anime.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-
-    <script src="js/text-animations.js"></script>
-    <script src="js/main.js"></script>
+    <script src="./assets/js/text-animations.js"></script>
+    <script src="./assets/js/loader-overlay.js"></script>
   </body>
 </html>
-<!-- This page was built with a theme from Start Bootstrap - Resume v7.0.6 (https://startbootstrap.com/theme/resume) -->

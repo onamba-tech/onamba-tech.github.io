@@ -1,0 +1,41 @@
+.animated-gradient-background {
+	width: 100%;
+	height: inherit;
+	background: linear-gradient(-45deg, #00b300, #007d00, #00b3b3, #0a82a0, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+.animated-gradient-background-invert {
+	width: 100%;
+	height: inherit;
+	background: linear-gradient(-45deg, #e17c09, #e6bf26, #d6c148, #e98f40, #fefcbf);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

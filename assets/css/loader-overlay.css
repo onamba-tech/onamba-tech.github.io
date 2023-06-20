@@ -1,62 +1,10 @@
-/* Spinner */
-.spinner {
-  margin: 100px auto 0;
-  width: 70px;
-  text-align: center;
-}
-
-.spinner > div {
-  width: 18px;
-  height: 18px;
-  background-color: var(--bs-highlight-bg);
-
-  border-radius: 100%;
-  display: inline-block;
-  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-}
-
-.spinner .bounce1 {
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-}
-
-.spinner .bounce2 {
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s;
-}
-
-@-webkit-keyframes sk-bouncedelay {
-  0%,
-  80%,
-  100% {
-    -webkit-transform: scale(0);
-  }
-  40% {
-    -webkit-transform: scale(1);
-  }
-}
-
-@keyframes sk-bouncedelay {
-  0%,
-  80%,
-  100% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  40% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-
 /* Loader Overlay */
 #loader-wrapper {
   display: block;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: var(--bs-link-hover-color);
+  background-color: rgb(233, 146, 16);
   width: 100vw;
   height: 100vh;
   z-index: 1050;
@@ -69,8 +17,6 @@
   width: 150px;
   height: 150px;
   margin: -75px 0 0 -75px;
-  /* border-radius: 19801212px; */
-  /* border: 3px solid var(--bs-highlight-bg); */
   z-index: 1500;
 }
 
@@ -114,6 +60,20 @@
 
   -webkit-transition: all 0.3s 0.6s ease-out;
   transition: all 0.3s 0.6s ease-out;
+}
+
+#loader-text {
+  font-size: xx-large;
+  color: white;
+  font-weight: bold;
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  z-index: 1500;
 }
 
 /* Animations */
